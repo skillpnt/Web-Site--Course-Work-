@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+   
+.icon {
+	float: left;
+    padding: 0px 15px 0px 15px;
+}
+
+.topnav {
+    background-color: #fff;
+    overflow: hidden;
+	padding: 5px 0px 5px 0px;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #002C49;
+    color: white;
+}
+
+.topnav a.login_nav {
+	float: right;
+}
+
+.topnav a.welcome_sign {
+	background-color: #fff;
+}
+
+
+.banner {
+    position: relative;
+    color: white;
+}
+.banner_text {
+    position: absolute;
+    text-align: left;
+    top: 8px;
+    left: 160px;
+	width: 300px; 
+}
+
+.short_news {
+	text-align: center;
+	width: 600px; 
+}
+
+.short_about {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.short_about1{    
+    width: 30%;
+    min-height: 150px;
+    float: left;
+	padding-left: 10px;
+}
+.short_about2{    
+    width: 70%;
+    min-height: 150px;
+    margin-left: 40%;
+}
+.short_news1{    
+	width: 33.33%;
+}
+
+h1{
+	font-size: 30px; 
+	font-weight: bold
+}
+
+.about_content{    
+    width: 25%;
+    min-height: 150px;
+    float: left;
+	padding-left:20px;
+	padding-top: 20px;
+}
+.about_text{    
+    width: 70%;
+    min-height: 150px;
+    margin-left: 25%;
+	padding-left:20px;
+	padding-top: 20px;
+}
+.news_date{
+	float: right;
+}
+
+.news_col{
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 50px;
+}
+.article{
+	border: 10px ridge; /* Параметры границы */
+    padding: 20px; /* Поля вокруг текста */
+}
+.map{
+	margin: 0 auto;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+footer{
+	margin-top: 100px;
+	margin-bottom: 0px;
+}
